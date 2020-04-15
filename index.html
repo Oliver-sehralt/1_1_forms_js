@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="multiplication" action="">
-        <label for="number">Nummer:</label>
-        <input type="number" min="0" id="number"/><br>
-        <input type="submit" onClick="multiplyBy()" value="result">
-        </form>
-        <p>The Result is :
-        <span id = "result"></span>
-        </p>  
+    <form>
+        <input type="text" id="number"/><br>
+        <button type="button" onclick="calc()">Berechne</button>
+        <p>The Result is : </p>
+        <div id = "result"></div> 
+    </form>
     <script src="function.js"></script>
 </body>
 </html>

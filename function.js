@@ -1,9 +1,6 @@
-
-
-function multiplyBy()
-{
-       var number = document.getElementById("number").value;
-       document.getElementById("result").innerText = number * 2;
-       document.write("result");
-
+function calc() {
+       var a = parseInt(document.querySelector("#number").value);
+       var calculate;
+       calculate = a * 2;
+       document.querySelector("#result").innerHTML=calculate;
 }
